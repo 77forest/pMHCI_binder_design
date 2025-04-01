@@ -1,0 +1,1777 @@
+core.init: Checking for fconfig files in pwd and ./rosetta/flags 
+core.init: Rosetta version: 2018.41.post.dev+171.bcov.dev.507725abe46 507725abe46bb3bc89c344927e8a22970319e9b4 git@github.com:RosettaCommons/main.git 2019-09-10T18:01:28
+core.init: command: ../../../../../software/contact/rosetta_scripts -parser:protocol ../../../../../software/contact/just_contact_patch.xml -parser:script_vars patchdock_res=183 -beta_nov16 -overwrite -out:file:scorefile score.sc -out:file:silent_struct_type binary -out:file:silent /dev/null -in:file:silent ../../../xaa.silent
+core.init: 'RNG device' seed mode, using '/dev/urandom', seed=-1043179388 seed_offset=0 real_seed=-1043179388
+core.init.random: RandomGenerator:init: Normal mode, seed=-1043179388 RG_type=mt19937
+core.init: Resolved executable path: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/rosetta_scripts
+core.init: Looking for database based on location of executable: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/
+core.io.silent.SilentFileData: Reading all structures from ../../../xaa.silent
+core.io.silent.SilentFileData: Finished reading 88 structures from ../../../xaa.silent
+protocols.evaluation.ChiWellRmsdEvaluatorCreator: Evaluation Creator active ... 
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise0_101_dldesign_2_dldesign_0_17_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise0_101_dldesign_2_dldesign_0_17_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise0_130_dldesign_3_dldesign_0_20_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise0_130_dldesign_3_dldesign_0_20_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise10_166_dldesign_3_dldesign_0_1_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise10_166_dldesign_3_dldesign_0_1_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise10_44_dldesign_3_dldesign_0_14_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise10_44_dldesign_3_dldesign_0_14_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise10_44_dldesign_3_dldesign_0_20_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise10_44_dldesign_3_dldesign_0_20_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise1_103_dldesign_1_dldesign_0_6_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise1_103_dldesign_1_dldesign_0_6_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise1_103_dldesign_2_dldesign_0_20_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise1_103_dldesign_2_dldesign_0_20_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise1_103_dldesign_3_dldesign_0_12_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise1_103_dldesign_3_dldesign_0_12_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise1_103_dldesign_3_dldesign_0_13_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise1_103_dldesign_3_dldesign_0_13_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise1_103_dldesign_3_dldesign_0_2_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise1_103_dldesign_3_dldesign_0_2_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise1_122_dldesign_0_dldesign_0_1_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise1_122_dldesign_0_dldesign_0_1_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise1_122_dldesign_0_dldesign_0_6_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise1_122_dldesign_0_dldesign_0_6_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise1_137_dldesign_1_dldesign_0_3_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise1_137_dldesign_1_dldesign_0_3_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise1_137_dldesign_1_dldesign_0_4_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise1_137_dldesign_1_dldesign_0_4_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise1_137_dldesign_2_dldesign_0_0_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise1_137_dldesign_2_dldesign_0_0_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise1_137_dldesign_3_dldesign_0_5_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise1_137_dldesign_3_dldesign_0_5_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise1_137_dldesign_3_dldesign_0_7_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise1_137_dldesign_3_dldesign_0_7_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise1_148_dldesign_3_dldesign_0_10_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise1_148_dldesign_3_dldesign_0_10_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise1_21_dldesign_0_dldesign_0_1_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise1_21_dldesign_0_dldesign_0_1_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise1_24_dldesign_1_dldesign_0_1_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise1_24_dldesign_1_dldesign_0_1_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise1_24_dldesign_1_dldesign_0_4_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise1_24_dldesign_1_dldesign_0_4_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise1_34_dldesign_3_dldesign_0_4_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise1_34_dldesign_3_dldesign_0_4_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise1_34_dldesign_3_dldesign_0_7_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise1_34_dldesign_3_dldesign_0_7_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise1_55_dldesign_3_dldesign_0_4_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise1_55_dldesign_3_dldesign_0_4_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise1_55_dldesign_3_dldesign_0_5_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise1_55_dldesign_3_dldesign_0_5_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise1_5_dldesign_0_dldesign_0_14_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise1_5_dldesign_0_dldesign_0_14_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise1_5_dldesign_0_dldesign_0_20_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise1_5_dldesign_0_dldesign_0_20_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise1_61_dldesign_2_dldesign_0_17_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise1_61_dldesign_2_dldesign_0_17_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise1_84_dldesign_1_dldesign_0_18_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise1_84_dldesign_1_dldesign_0_18_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise2_101_dldesign_0_dldesign_0_8_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise2_101_dldesign_0_dldesign_0_8_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise2_101_dldesign_1_dldesign_0_12_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise2_101_dldesign_1_dldesign_0_12_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise2_101_dldesign_1_dldesign_0_15_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise2_101_dldesign_1_dldesign_0_15_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise2_119_dldesign_3_dldesign_0_11_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise2_119_dldesign_3_dldesign_0_11_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise2_119_dldesign_3_dldesign_0_14_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise2_119_dldesign_3_dldesign_0_14_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise2_119_dldesign_3_dldesign_0_17_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise2_119_dldesign_3_dldesign_0_17_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise2_119_dldesign_3_dldesign_0_18_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise2_119_dldesign_3_dldesign_0_18_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise2_119_dldesign_3_dldesign_0_19_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise2_119_dldesign_3_dldesign_0_19_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise2_119_dldesign_3_dldesign_0_20_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise2_119_dldesign_3_dldesign_0_20_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise2_119_dldesign_3_dldesign_0_4_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise2_119_dldesign_3_dldesign_0_4_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise2_119_dldesign_3_dldesign_0_5_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise2_119_dldesign_3_dldesign_0_5_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise2_119_dldesign_3_dldesign_0_6_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise2_119_dldesign_3_dldesign_0_6_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise2_119_dldesign_3_dldesign_0_7_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise2_119_dldesign_3_dldesign_0_7_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise2_137_dldesign_2_dldesign_0_5_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise2_137_dldesign_2_dldesign_0_5_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise2_148_dldesign_3_dldesign_0_20_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise2_148_dldesign_3_dldesign_0_20_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise2_17_dldesign_1_dldesign_0_8_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise2_17_dldesign_1_dldesign_0_8_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise2_38_dldesign_3_dldesign_0_6_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise2_38_dldesign_3_dldesign_0_6_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise2_38_dldesign_3_dldesign_0_7_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise2_38_dldesign_3_dldesign_0_7_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise2_38_dldesign_3_dldesign_0_9_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise2_38_dldesign_3_dldesign_0_9_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise2_7_dldesign_3_dldesign_0_3_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise2_7_dldesign_3_dldesign_0_3_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise3_149_dldesign_3_dldesign_0_7_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise3_149_dldesign_3_dldesign_0_7_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise3_3_dldesign_2_dldesign_0_15_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise3_3_dldesign_2_dldesign_0_15_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise3_3_dldesign_2_dldesign_0_16_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise3_3_dldesign_2_dldesign_0_16_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise3_3_dldesign_2_dldesign_0_17_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise3_3_dldesign_2_dldesign_0_17_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise3_73_dldesign_3_dldesign_0_18_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise3_73_dldesign_3_dldesign_0_18_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise3_84_dldesign_3_dldesign_0_14_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise3_84_dldesign_3_dldesign_0_14_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise4_105_dldesign_3_dldesign_0_19_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise4_105_dldesign_3_dldesign_0_19_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise4_105_dldesign_3_dldesign_0_20_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise4_105_dldesign_3_dldesign_0_20_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise4_18_dldesign_1_dldesign_0_10_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise4_18_dldesign_1_dldesign_0_10_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise4_18_dldesign_1_dldesign_0_12_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise4_18_dldesign_1_dldesign_0_12_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise4_18_dldesign_1_dldesign_0_17_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise4_18_dldesign_1_dldesign_0_17_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise4_18_dldesign_1_dldesign_0_1_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise4_18_dldesign_1_dldesign_0_1_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise4_18_dldesign_1_dldesign_0_20_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise4_18_dldesign_1_dldesign_0_20_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise5_136_dldesign_3_dldesign_0_1_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise5_136_dldesign_3_dldesign_0_1_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise5_136_dldesign_3_dldesign_0_5_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise5_136_dldesign_3_dldesign_0_5_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise5_145_dldesign_1_dldesign_0_18_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise5_145_dldesign_1_dldesign_0_18_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise5_79_dldesign_2_dldesign_0_17_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise5_79_dldesign_2_dldesign_0_17_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise6_143_dldesign_1_dldesign_0_7_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise6_143_dldesign_1_dldesign_0_7_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise7_109_dldesign_3_dldesign_0_10_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise7_109_dldesign_3_dldesign_0_10_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise7_109_dldesign_3_dldesign_0_11_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise7_109_dldesign_3_dldesign_0_11_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise7_109_dldesign_3_dldesign_0_20_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise7_109_dldesign_3_dldesign_0_20_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise7_109_dldesign_3_dldesign_0_3_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise7_109_dldesign_3_dldesign_0_3_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise7_44_dldesign_3_dldesign_0_13_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise7_44_dldesign_3_dldesign_0_13_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise8_140_dldesign_3_dldesign_0_13_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise8_140_dldesign_3_dldesign_0_13_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise8_140_dldesign_3_dldesign_0_17_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise8_140_dldesign_3_dldesign_0_17_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise8_140_dldesign_3_dldesign_0_18_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise8_140_dldesign_3_dldesign_0_18_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise8_174_dldesign_0_dldesign_0_3_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise8_174_dldesign_0_dldesign_0_3_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise8_174_dldesign_0_dldesign_0_5_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise8_174_dldesign_0_dldesign_0_5_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise8_174_dldesign_0_dldesign_0_7_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise8_174_dldesign_0_dldesign_0_7_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise8_174_dldesign_0_dldesign_0_8_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise8_174_dldesign_0_dldesign_0_8_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise8_174_dldesign_1_dldesign_0_14_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise8_174_dldesign_1_dldesign_0_14_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise9_189_dldesign_0_dldesign_0_10_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise9_189_dldesign_0_dldesign_0_10_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise9_189_dldesign_0_dldesign_0_12_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise9_189_dldesign_0_dldesign_0_12_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise9_189_dldesign_0_dldesign_0_13_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise9_189_dldesign_0_dldesign_0_13_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise9_189_dldesign_0_dldesign_0_15_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise9_189_dldesign_0_dldesign_0_15_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise9_189_dldesign_0_dldesign_0_16_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise9_189_dldesign_0_dldesign_0_16_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise9_189_dldesign_0_dldesign_0_19_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise9_189_dldesign_0_dldesign_0_19_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise9_189_dldesign_0_dldesign_0_3_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise9_189_dldesign_0_dldesign_0_3_af2pred_0001
+basic.io.database: [ WARNING ] Unable to locate database file chemical/residue_type_sets/fa_standard
+core.chemical.GlobalResidueTypeSet: For ResidueTypeSet fa_standard there is no exclude_pdb_component_list.txt file to list known PDB ids.
+core.chemical.GlobalResidueTypeSet:     This will turn off PDB component loading for ResidueTypeSet fa_standard
+core.chemical.GlobalResidueTypeSet:     Expected file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/exclude_pdb_component_list.txt
+
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+ERROR:: Exit from: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc line: 145
+Error: [ ERROR ] ERROR: Exception caught by JobDistributor while trying to get pose from job 'yfv_free_v1_noise9_189_dldesign_0_dldesign_0_7_af2pred_0001'
+Error: [ ERROR ] 
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/core/chemical/GlobalResidueTypeSet.cc:145
+[ ERROR ] UtilityExitException
+ERROR: Unable to open file: /mnt/home/jbonz/papers/2024_pmhc_minib/code_upload/software/contact/../database/chemical/residue_type_sets/fa_standard/residue_types.txt
+
+
+
+Error: [ ERROR ] 
+Error: [ ERROR ] Treating failure as bad input; canceling similar jobs
+protocols.jd2.FileSystemJobDistributor: job failed, reporting bad input; other jobs of same input will be canceled: yfv_free_v1_noise9_189_dldesign_0_dldesign_0_7_af2pred_0001
+protocols.jd2.JobDistributor: no more batches to process... 
+protocols.jd2.JobDistributor: 88 jobs considered, 88 jobs attempted in 0 seconds
+Error: [ ERROR ] Exception caught by rosetta_scripts application:
+
+File: /mnt/net/shared/rosetta_builds/bcov_stable/19-09-18/main/source/src/protocols/jd2/JobDistributor.cc:330
+88 jobs failed; check output for error messages
+Error: [ ERROR ] 
