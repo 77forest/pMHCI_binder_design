@@ -1,0 +1,5 @@
+conda activate pMHC_fold_env/
+
+Example command:
+
+python ./batch_pMHC_fold.py --prefix pMHC_fold --script ./pmhc_fold.py --alleles A*02:01 A*02:01 --peptides RMFPNAPYL KLTPLCVTL --minib_dir ./input_pdbs/ --gres gpu:a4000:1 --structs_per_job 50 --p gpu --t 04:00:00
