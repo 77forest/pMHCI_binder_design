@@ -1,0 +1,33 @@
+<ROSETTASCRIPTS>
+    <SCOREFXNS>
+        <ScoreFunction name="sfxn" weights="beta_nov16" />
+ 
+    </SCOREFXNS>
+    <RESIDUE_SELECTORS>
+        <Chain name="chainA" chains="A"/>
+        <Chain name="chainB" chains="B"/>
+        <Slice name="patchdock_res" indices="%%patchdock_res%%" selector="chainB" />
+    </RESIDUE_SELECTORS>
+    <MOVERS>
+        <SwitchChainOrder name="chain1onlypre" chain_order="1" />
+        <ScoreMover name="scorepose" scorefxn="sfxn" verbose="false" />
+        <ParsedProtocol name="chain1only">
+            <Add mover="chain1onlypre" />
+            <Add mover="scorepose" />
+        </ParsedProtocol>
+    </MOVERS>
+    <FILTERS>
+
+
+        <ContactMolecularSurface name="contact_patch" distance_weight="0.5" target_selector="patchdock_res" binder_selector="chainA" confidence="0" />
+    </FILTERS>
+    <MOVERS>
+
+    </MOVERS>
+    <APPLY_TO_POSE>
+    </APPLY_TO_POSE>
+    <PROTOCOLS>
+        <Add filter_name="contact_patch" />
+    </PROTOCOLS>
+    <OUTPUT />
+</ROSETTASCRIPTS>
